@@ -1,14 +1,22 @@
-# Node.js Starter Overview
+# Chat bots com Watson no Facebook
 
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+## Passo 1 - Crie uma página no Facebook
+Acesse a sua timeline e crie uma página para o seu bot.
 
-## Run the app locally
+## Passo 2 - Crie um app no Facebook
+1. Acesse https://developers.facebook.com/
+2. Adicione a funcionalidade do Messenger ao app
+3. Crie um Token associado a página criada no item 1 e guarde esse token.
 
-1. [Install Node.js][]
-2. Download and extract the starter code from the Bluemix UI
-3. cd into the app directory
-4. Run `npm install` to install the app's dependencies
-5. Run `npm start` to start the app
-6. Access the running app in a browser at http://localhost:6001
+## Passo 3 - Adicione suas credenciais
+1. Edite o arquivo .env com as credenciais do conversation e seu token do facebook
+2. Edite o arquivo manifest.yml com o caminho para a sua aplicação.
 
-[Install Node.js]: https://nodejs.org/en/download/
+## Passo 4 - Suba a sua aplicação
+Utilizando o Cloud Foundry submeta a sua aplicação para o Bluemix. Como:
+1. Instale o CF (https://github.com/cloudfoundry/cli#downloads)
+2. Navegue via console (cmd) até a pasta do seu projeto
+3. Digite o comando **cf login** e preencha as informações requisitadas (o endpoint público é https://api.ng.bluemix.net)
+4. Digite o comando **cf push** para submeter automaticamente sua aplicação
+
+## Passo 5 - Atualize sua aplicação no facebook
