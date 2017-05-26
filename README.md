@@ -3,10 +3,14 @@
 ## Passo 1 - Crie uma página no Facebook
 Acesse a sua timeline e crie uma página para o seu bot.
 
+![Página no Facebook](readme_images/Tut1.gif)
+
 ## Passo 2 - Crie um app no Facebook
 1. Acesse https://developers.facebook.com/
 2. Adicione a funcionalidade do Messenger ao app
 3. Crie um Token associado a página criada no item 1 e guarde esse token.
+
+![App no Facebook](readme_images/Tut2.gif)
 
 ## Passo 3 - Adicione suas credenciais
 1. Edite o arquivo .env com as credenciais do conversation e seu token do facebook
