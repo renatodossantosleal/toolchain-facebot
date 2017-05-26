@@ -1,0 +1,19 @@
+{
+	"name": "facebot",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.15.3",
+		"cfenv": "1.0.4",
+		"dotenv": "4.0.0",
+		"request": "2.81.0",
+		"watson-developer-cloud": "2.32.1"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}
