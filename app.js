@@ -1,9 +1,13 @@
 var express = require('express');
 var request = require('request');
+var bodyParser = require('body-parser');
 var Conversation = require('watson-developer-cloud/conversation/v1'); // watson sdk
 var app = express();
 
 require('dotenv').config({silent: true});
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 var contexto_atual = null;
 
