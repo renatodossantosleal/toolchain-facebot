@@ -34,13 +34,15 @@ Dentro do seu app do facebook edite a aplicação para adicionar webhooks nela.
 3. Nos Subscription Fields você deve selecionar: messages, message_deliveries, messaging_options e messaging_postbacks.
 4. Depois disso tudo aparecerá uma opção de subscrever a página “Select a page to subscribe your webhook to the page events”. Selecione a página criada no passo 1.
 
-![Editar o webhooks](readme_images/Tut2.gif)
+![Editar o webhooks](readme_images/webhooks.png)
 
 ## Passo 6 - Registrando seu app
-Agora basta você rodar o seguinte comando curl (se você não tem o curl instalado o link pra download é: https://curl.haxx.se/dlwiz/):
+Agora basta você rodar o seguinte comando curl:
 
 `curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=SEU_TOKEN`
 
-> Pronto! Seu bot já está funcionando no messenger.
+Obs: se você não tem o curl instalado o link pra download é: https://curl.haxx.se/dlwiz/
+
+__Pronto! Seu bot já está funcionando no messenger.__
 
 
