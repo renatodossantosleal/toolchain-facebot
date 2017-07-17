@@ -14,7 +14,7 @@ Acesse a sua timeline e crie uma página para o seu bot.
 
 ## Passo 3 - Adicione suas credenciais
 1. Edite o arquivo .env com as credenciais do conversation e seu token do facebook (o token gerado no passo 2.3)
-2. Edite o arquivo manifest.yml com o caminho para a sua aplicação (a url dele).
+2. Edite o arquivo manifest.yml (name & host) com o nome da sua aplicação no Bluemix e o caminho (único) para a sua aplicação.
 
 ## Passo 4 - Suba a sua aplicação
 Utilizando o Cloud Foundry submeta a sua aplicação para o __Bluemix__. Como:
